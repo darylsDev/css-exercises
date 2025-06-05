@@ -1,4 +1,4 @@
-p {
+.odd {
     background-color: pink;
     font-family: Verdana, 'DejaVu Sans', sans-serif;
 }
@@ -9,12 +9,11 @@ p {
     ;
 }
 
-#three{
-    font-size: 24px;
+.cooler {
+    font-size: 24px
 }
 
 #four {
     background-color: lightgreen;
-    font-size: 24px;
     font-weight: bold;
 }
