@@ -52,7 +52,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding: 8px;
-  gap: 16px
+  gap: 16px;
 }
 
 .links{
@@ -61,6 +61,10 @@ ul {
   padding: 0;
   gap: 16px;
   flex: 1
+}
+
+.profile-image {
+  flex-shrink: 0;
 }
 
 
