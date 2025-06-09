@@ -24,3 +24,34 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/******my solution******/
+
+/* flex on title not necessary since it's the only element in the axis
+text align could have been applied globally instead of to just the .plant element */
+
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;;
+}
+
+.main {
+  
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  text-align: center;
+  flex-wrap: wrap; 
+}
+
+
+
+
